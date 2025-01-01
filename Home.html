@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumant Industries | Aluminium Alloy Manufacturer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+<!-- Header Section -->
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html">
+                <img src="Images/logo.png" alt="Sumant Industries Logo">
+            </a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Sumant Industries</h1>
+        <p>Pioneers in Aluminium Alloy Manufacturing, Master Alloys, and Castings </p>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>
+                At Sumant Industries, the best aluminum foundry manufacturer of Kolhapur, we take pride in our legacy of excellence and innovation in the field of aluminum manufacturing. Established with a vision to provide superior quality products, we specialize in the production of Aluminum Alloy manufacturing Ingots, Master Alloys, and Aluminium Casting. With over 10 years of experience, our skilled team, led by visionary leaders Mr. Hari B. Kumbhar and Mr. Suraj H. Kumbhar, works tirelessly to ensure that each product meets the highest industry standards. Our commitment to quality, customer satisfaction, and continuous improvement drives us to evolve our manufacturing processes to meet the ever-changing demands of the global market.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="Images/about_img.jpg" alt="Company Image">
+        </div>
+    </div>
+</section>
+
+
+<section id="certifications" class="certifications-section">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-description">
+            We are ISO 9001:2015 certified, reflecting our commitment to maintaining high standards in quality and manufacturing practices.
+        </p>
+        <div class="certifications-grid">
+            <div class="certificate-card" onclick="showFullImage('Images/ISO_certificate.png')">
+                <img src="Images/ISO_certificate.png" alt="ISO Certificate">
+                <p>ISO 9001:2015 Certificate</p>
+            </div>
+            <div class="certificate-card" onclick="showFullImage('Images/zed_cer.png')">
+                <img src="Images/zed_cer.png" alt="Quality Certificate">
+                <p>Quality Excellence Certificate</p>
+            </div>
+            <div class="certificate-card" onclick="showFullImage('Images/zed_bronz_cer.png')">
+                <img src="Images/zed_bronz_cer.png" alt="Industry Standards Certification">
+                <p>Industry Standards Certification</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Image Modal -->
+    <div id="image-modal" class="image-modal">
+        <span class="close-button" onclick="closeFullImage()">×</span>
+        <img class="modal-content" id="modal-image" alt="Full Image">
+    </div>
+</section>
+
+
+<section id="team">
+    <h2 class="team-title">Director & Founder</h2>
+    <div class="team-grid">
+        <div class="team-member">
+            <div class="team-photo-container">
+                <img src="Images/founder.jpg" alt="Mr. Hari B. Kumbhar" class="team-photo" />
+            </div>
+            <h3>Mr. Hari B. Kumbhar</h3>
+            <p class="role">Founder & Director</p>
+            <p>Retired Deputy Executive Engineer, WRD, Govt. of Maharashtra</p>
+            <div class="contact-info">
+                <i class="fas fa-phone -alt"></i> <span>+91 9423800326</span>
+            </div>
+        </div>
+        <div class="team-member">
+            <div class="team-photo-container">
+                <img src="Images/cofouder.jpg" alt="Mr. Suraj H. Kumbhar" class="team-photo" />
+            </div>
+            <h3>Mr. Suraj H. Kumbhar</h3>
+            <p class="role">Co-Founder</p>
+            <p>B.E., M.E. - Mechanical Engineering</p>
+            <div class="contact-info">
+                <i class="fas fa-phone-alt"></i> <span>+91 8625872587</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section id="products">
+    <h2 class="section-heading">Our Products</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="Images/product_img.jpg" alt="Aluminium Alloy Ingots">
+            <div class="product-content">
+                <h3 class="product-title">Aluminium Alloy Ingots (ADC and LM SERIES)</h3>
+                <p class="product-description">High-quality ingots for diverse industrial applications.</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Images/product_img2.jpg" alt="Special Alloys">
+            <div class="product-content">
+                <h3 class="product-title">Special Alloys: Tenzalloy, Al-5500</h3>
+                <p class="product-description">Innovative solutions for advanced engineering needs.</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Images/product_img3.jpg" alt="Master Alloys">
+            <div class="product-content">
+                <h3 class="product-title">Master Alloys: TiB-5:1, Sr-5%, Si-30%, Cu-50%</h3>
+                <p class="product-description">Superior quality alloys to enhance your manufacturing processes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="extra-content">
+        <h3 class="table-heading">List of Grades we provide.</h3>
+        <table class="modern-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Grades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aluminium Alloys</td>
+                    <td>ADC12, AC4B, A380, AlSi132, A360, AC2A, etc.</td>
+                </tr>
+                <tr>
+                    <td>LM Series</td>
+                    <td>LM4, LM6, LM9, LM16, LM20, LM24, LM25, LM26, LM27, etc.</td>
+                </tr>
+                <tr>
+                    <td>Special Alloys</td>
+                    <td>Tenzalloy, Al-5500</td>
+                </tr>
+                <tr>
+                    <td>Master Alloys</td>
+                    <td>TiB-5:1, Sr-5%, Si-30%, Cu-50%</td>
+                </tr>
+                <tr>
+                    <td>Master Alloys</td>
+                    <td>Mg-10%, Mn-10%, Zn-10%, Ti-10%</td>
+                </tr>
+                <tr>
+                    <td>Master Alloys</td>
+                    <td>B-3%, Ni-10%, Cr-10%, Fe-10%, etc.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+ <!-- Stages of Production -->
+ <div class="production-stages-container">
+    <h3>Stages of Production</h3>
+    <div class="stage-container">
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">⚙️</div>
+            <h4>Raw Material Sorting</h4>
+            <p class="stage-description">Sorting raw materials for quality control and consistency.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">⚖️</div>
+            <h4>Raw Material Weighing</h4>
+            <p class="stage-description">Weighing raw materials for perfect alloy composition.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">🔥</div>
+            <h4>Furnace Feeding</h4>
+            <p class="stage-description">Feeding raw materials into the furnace for melting.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">💧</div>
+            <h4>Drossing & Fluxing</h4>
+            <p class="stage-description">Removing impurities from the molten aluminum.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">🧪</div>
+            <h4>Alloying Element Addition</h4>
+            <p class="stage-description">Adding elements like Si, Cu, Mg to achieve the desired alloy composition.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">🔬</div>
+            <h4>Dross Removal & Inspection</h4>
+            <p class="stage-description">Inspecting the molten alloy and removing any remaining dross.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">🥣</div>
+            <h4>Pouring into Molds</h4>
+            <p class="stage-description">Pouring molten aluminum into molds to form ingots.</p>
+        </div>
+        <div class="stage-card" onclick="toggleDetails(this)">
+            <div class="stage-icon">📦</div>
+            <h4>Ingots Ready for Dispatch</h4>
+            <p class="stage-description">Inspecting and preparing the final aluminum ingots for delivery.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Product Process Section -->
+<section id="product-process" class="product-process-section">
+    <h2 class="section-heading">Product Process</h2>
+    <div class="process-grid">
+        <!-- Stage 1 -->
+        <div class="process-card">
+            <img src="Images/production_stage_1.jpg" alt="Melting" class="process-image">
+            <p class="process-description">Raw material sorting.</p>
+        </div>
+        <div class="arrow">→</div>
+        <!-- Stage 2 -->
+        <div class="process-card">
+            <img src="Images/production_stage_2.jpg" alt="Melting" class="process-image">
+            <p class="process-description">Melting.</p>
+        </div>
+        <div class="arrow">→</div>
+        <!-- Stage 3 -->
+        <div class="process-card">
+            <img src="Images/production_stage_3.jpg" alt="Pouring" class="process-image">
+            <p class="process-description">Pouring molten Al into casting mold.</p>
+        </div>
+        <div class="arrow">→</div>
+        <!-- Stage 4 -->
+        <div class="process-card">
+            <img src="Images/production_stage_4.jpg" alt="Dispatch" class="process-image">
+            <p class="process-description">Ingots ready for dispatch.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Vision Section -->
+<section class="vision-mission-section">
+    <!-- Column for Cards -->
+    <div class="card-container">
+        <div class="card">
+            <h2>Our Vision</h2>
+            <p>To deliver the best quality products and services by meeting the demands of our customers at reasonably affordable prices while maintaining the highest standards of ethical practices and social responsibility.</p>
+        </div>
+        <div class="card">
+            <h2>Our Mission</h2>
+            <p>To provide environmentally friendly, zero-defect recycling of aluminium scrap without compromising the quality of the product demanded.</p>
+        </div>
+        <div class="card">
+            <h2>Our Values</h2>
+            <p>We are committed to innovation, sustainability, and excellence, prioritizing integrity, efficiency, and safety while fostering strong collaborations, embracing adaptability, and upholding social and environmental responsibility.</p>
+        </div>
+    </div>
+    
+    <!-- Column for Image -->
+    <div class="vision-image">
+        <img src="Images/vision.png" alt="Vision and Mission Image">
+    </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+    <h2>Our Gallery</h2>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="Images/machine.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/office.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/tank.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/gall1.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/gall2.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/gall3.jpg" alt="Gallery Image 3">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="Images/gall5.jpg" alt="Gallery Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/gall6.jpg" alt="Gallery Image 6">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+    <div class=" footer-container">
+        <!-- Company Info -->
+        <div class="company-info">
+            <img src="Images/logo1.jpg" alt="Ekadanta Metal Alloys" class="logo">
+            <p class="company-desc">
+                Under the leadership of our founder, Mr. Hari B. Kumbhar (Ret. Deputy Executive Engineer, WRD, Govt. of Maharashtra) and Mr. Suraj H. Kumbhar (B.E, M.E - Mechanical) we consistently put efforts to enhance the quality of our product.
+            </p>
+            <!-- Map -->
+            <div class="company-map">
+                <iframe
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794!2d74.3493738!3d16.6208401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0fd0770bcf5c9%3A0x1d1a17887b6c0474!2sSumant%20Industries!5e0!3m2!1sen!2sin!4v1234567890"
+                   width="600"
+                   height="450"
+                   style="border:0;"
+                   allowfullscreen=""
+                   loading="lazy"
+                   referrerpolicy="no-referrer-when-downgrade"
+                 ></iframe>                 
+            </div>
+            
+            
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Certifications</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-phone-alt"></i> <a href="tel:+919423800326">+919423800326 </a>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i> <a href="tel:+918625872587">+918625872587 </a>
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope"></i> <a href="mailto:sumant.industries2022@gmail.com">sumant.industries2022@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> <a href="mailto:surajkumbhar6@gmail.com">surajkumbhar6@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i> Address: T-4/5, Five Star MIDC, Kagal, back to Sai Weighing Balance Kagal, Kolhapur-416236
+                </li>
+                <li>
+                    <i class="fas fa-file-invoice"></i> GST -  27DHPPK0951K1ZW
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <input type="tel" placeholder="Phone No." required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="send-btn">SEND</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.linkedin.com/company/105326719/admin/dashboard/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Cybexonics IT Consultant © 2024. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+
+
+    document.querySelector(".contact-form").addEventListener("submit", function (e) {
+  e.preventDefault(); 
+
+  const name = document.querySelector('input[placeholder="Name"]').value.trim();
+  const email = document.querySelector('input[placeholder="Email"]').value.trim();
+  const phone = document.querySelector('input[placeholder="Phone No."]').value.trim();
+  const message = document.querySelector('textarea[placeholder="Message"]').value.trim();
+
+  if (!name || !email || !phone || !message) {
+    alert("Please fill in all the fields.");
+    return;
+  }
+  const whatsappMessage = `Hello, here are my details:
+  Name: ${name}
+  Email: ${email}
+  Phone: ${phone}
+  Message: ${message}`;
+
+  const encodedMessage = encodeURIComponent(whatsappMessage);
+  const whatsappNumber = "918625872587"; 
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  window.open(whatsappURL, "_blank");
+});
+
+function showFullImage(imageSrc) {
+    const modal = document.getElementById('image-modal');
+    const modalImage = document.getElementById('modal-image');
+    modalImage.src = imageSrc;
+    modal.style.display = 'flex';
+}
+
+function closeFullImage() {
+    const modal = document.getElementById('image-modal');
+    modal.style.display = 'none';
+}
+
+
+    
+</script>
+
+</body>
+</html>
